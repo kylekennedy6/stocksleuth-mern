@@ -1,2 +1,2 @@
-# stocksleuth-mern-2
+A website that enables language-based equity research
  
