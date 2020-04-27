@@ -1,0 +1,63 @@
+.openingStatement-item {
+  width: 100%;
+  display: flex;
+}
+
+.openingStatement-item__content {
+  padding: 1;
+  display: block;
+  box-shadow: none;
+}
+
+.openingStatement-item__info {
+  padding: 1rem;
+  text-align: center;
+}
+
+.openingStatement-item__image {
+  width: 100%;
+  height: 12.5rem;
+  margin-right: 1.5rem;
+}
+
+.openingStatement-item__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.openingStatement-item__info h2,
+.openingStatement-item__info h3,
+.openingStatement-item__info p {
+  margin: 0 0 0.5rem 0;
+}
+
+.openingStatement-item__actions {
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+.openingStatement-item__modal-content {
+  padding: 0;
+}
+
+.openingStatement-item__modal-actions {
+  text-align: right;
+}
+
+.openingStatement-item__actions button,
+.openingStatement-item__actions a {
+  margin: 0.5rem;
+}
+
+.map-container {
+  height: 15rem;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .openingStatement-item__image {
+    height: 20rem;
+  } 
+}

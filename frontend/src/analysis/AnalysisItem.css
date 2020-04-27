@@ -1,0 +1,13 @@
+.analysis-item {
+  position: relative;
+  list-style: none;
+  margin-left: 9rem;
+  margin-right: 3rem;
+  background: white;
+  margin-bottom: 2rem;
+}
+
+.analysis-item .card {
+  width: 60%;
+  margin-left: 9rem;
+}

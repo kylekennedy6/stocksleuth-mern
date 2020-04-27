@@ -1,0 +1,10 @@
+.question-item {
+  margin: 1rem 0;
+  width: 100%;
+  text-overflow: ellipsis;
+}
+
+.question-item:hover {
+  overflow: visible;
+}
+

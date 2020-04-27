@@ -1,0 +1,14 @@
+.transcript-title {
+  width: 100%;
+  display: block;
+  align-items: center;
+  position: fixed;
+  padding-top: 2rem;
+  z-index: 5;
+  background: white;
+}
+
+.transcript-title h2 {
+  color:#21CE99;
+  font-size: 1.71428571rem;
+}

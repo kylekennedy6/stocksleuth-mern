@@ -1,0 +1,1 @@
+{"version":3,"sources":["TranscriptHome.css"],"names":[],"mappings":"AAAA,+BACE,SAAU,CACV,oBAAqB,CACrB,iBAAkB,CAClB,QAAS,CACT,WAAY,CACZ,sBACF","file":"19.f7879c14.chunk.css","sourcesContent":[".transcript-content__container {\n  z-index: 4;\n  display: inline-block;\n  position: relative;\n  top: 5rem;\n  width: 85rem;\n  justify-content: center;\n}"]}

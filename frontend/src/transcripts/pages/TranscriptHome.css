@@ -1,0 +1,8 @@
+.transcript-content__container {
+  z-index: 4;
+  display: inline-block;
+  position: relative;
+  top: 5rem;
+  width: 85rem;
+  justify-content: center;
+}

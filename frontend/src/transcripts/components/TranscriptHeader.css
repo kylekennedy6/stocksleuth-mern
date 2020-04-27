@@ -1,0 +1,25 @@
+.transcript-header {
+  width: 4rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 15rem;
+  background: white;
+  margin-top: 1rem;
+  z-index: 5;
+  border: .5px solid #febfb4;
+  box-shadow: 0 1px 3px #febfb4;
+  border-radius: 6px;
+  padding-left: 1rem;
+}
+
+@media (min-width: 768px) {
+  .transcript-header {
+    width: 85rem;
+    border: none;
+    box-shadow: none;
+    border-radius: none;
+    padding-left: 0rem;
+  }
+}

@@ -1,0 +1,135 @@
+.rating-form label {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.rating-form button {
+  font-size: 14px;
+}
+
+.rating-header {
+    width: 100%;
+    height: 8.2rem;
+    display: block;
+    align-items: center;
+    position: fixed;
+    top: 8rem;
+    margin-top: 0rem;
+    z-index: 5;
+    background: white;
+    padding-left: 1rem;
+}
+
+  .transcript-ratings-side-by-side-container label {
+    font-size: 16px;
+  }
+
+  .transcript-rating-form__button button {
+    margin-left: 1rem;
+    margin-top: 2.3rem;
+    font-size: 14px;
+    padding: .5rem;
+  }
+
+  .rating-container {
+    display: flex;
+  }
+
+.rating-form {
+  background: white;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+}
+
+.rating-form select {
+  margin-top: 0.5rem;
+}
+
+.rating-form__button button {
+  margin-top: 2.6rem;
+  margin-left: 1rem;
+}
+
+.transcript-rating-form__button button {
+  margin-top: .2rem;
+  margin-left: .5rem;
+  font-size: 10px;
+}
+
+.rating-form__button-small button {
+  margin-top: 2.3rem;
+  font-size: 14px;
+}
+
+input {
+  margin-left: .5rem;
+}
+
+select {
+  margin-left: .5rem;
+}
+
+.rating-container {
+  display: inline-block;
+  width: 100%
+}
+
+.ratings-side-by-side-container {
+  box-sizing: border-box;
+  margin-right: 1rem;
+  width: 22%;
+  padding-bottom: 0;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.ratings-side-by-side-container h3 {
+  color: #21CE99;
+  font-size: 15px;
+}
+
+.ratings-side-by-side-container label {
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: .5rem;
+  display: block;
+  margin-top: 1rem;
+}
+
+.ratings-side-by-side-container .transcript-rating__label {
+  color:#21CE99;
+  font-size: 16px;
+}
+
+.ratings-side-by-side-container select {
+  margin-top: .5rem;
+  width: 17.3rem;
+  border: 1px solid #ccc;
+  background: #f8f8f8;
+  padding: .15rem .25rem;
+  display: block;
+  font-size: 12px;
+}
+
+.transcript-ratings-side-by-side-container select {
+  margin-top: .5rem;
+  width: 14rem;
+  border: 1px solid #ccc;
+  background: #f8f8f8;
+  padding: .15rem .25rem;
+  display: block;
+  font-size: 12px;
+}
+
+.transcript-ratings-side-by-side-container label {
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: .5rem;
+  display: block;
+  margin-top: 1rem;
+  color:#21CE99;
+  font-size: 16px;
+}

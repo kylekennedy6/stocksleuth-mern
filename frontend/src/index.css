@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: Helvetica;
+  background: #fff;
+  font-size: 14px;
+  line-height: 1.0;
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+}
+
+.title-header-container {
+  position: relative;
+  top: 0rem;
+  height: 9rem;
+  margin: 0;
+  z-index: 5;
+  background-color: white;
+  overflow: auto;
+  left: 6.5%;
+}
+
+.content-container {
+  position: relative;
+  top: 0rem;
+  height: 100%;
+  margin: 0;
+  z-index: 4;
+  width: 85rem;
+  background-color: white;
+  left: 6.5%;
+}
+
+#date {
+  font-size: 14px;
+  padding: 0;
+}
+
+#date:active {
+  border-bottom: 2px solid #21CE99;
+}
+
+#date:focus {
+  border-bottom: 2px solid #21CE99;
+}
+
+#date:hover {
+  border-bottom: 2px solid #21CE99;
+}
+
+.SingleDatePicker {
+  padding-left: .25rem;
+  margin-top: .5rem;
+  margin-left: .5rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px #febfb4;
+  border: 2px solid #febfb4;
+  display: flex;
+  width: 12rem;
+}
+
+.CalendarMonth_caption strong {
+  color: #21CE99;
+}
+
+.CalendarMonth_table td {
+  color: #21CE99;
+  background: white;
+  border: 1px solid #e4e7e7;
+}
+
+.CalendarMonth_table td:hover {
+  color: #febfb4;
+  background: white;
+  border: 1px solid #febfb4;}
+
+.SingleDatePickerInput__withBorder {
+  border: none;
+}
+
+.DateInput_input__focused {
+  border-bottom: 2px solid #21CE99;
+}
+
+.main-container {
+  position: relative;
+  z-index: 4;
+  left: 0%;
+  top: 4rem;
+  height: 100%;
+  width: 100%;
+}
+
+h3 {
+  color: #21CE99;
+}
+
+.left-right-container {
+  position: relative;
+  display: flex;
+  top: 5rem;
+  left: 4rem;
+  width: 38rem;
+}
+
+.left-half {
+  position: relative;
+  flex: 1;
+}
+
+.right-half {
+  flex: 1;
+}
+
+.slide-in-left-enter {
+  transform: translateX(-100%);
+}
+
+.slide-in-left-enter-active {
+  transform: translateX(0);
+  opacity: 1;
+  transition: all 200ms;
+}
+
+.slide-in-left-exit {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+.slide-in-left-exit-active {
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: all 200ms;
+}
+
+.center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  margin-bottom: 0.5rem;
+}
+
+
+.center-header {
+  text-align: center;
+}
+
+#username, #password {
+  width: 100%;
+  margin: 0;
+}
+.empty-list-card {
+  left: 25%;
+  width: 50%;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0;
+}
+
+.content-container .empty-list-card-center {
+  left: 0;
+  width: 38rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0;
+  box-shadow: none;
+}
+
+.content-container .empty-list-card {
+  left: 25%;
+  width: 50%;
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 0;
+  box-shadow: none;
+
+}
+
+.content-container .smaller {
+  left: 25%;
+  width: 50%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 0;
+}
+
+.empty-list-card h3 {
+  font-size: 1.28571429rem;
+}
+
+.smaller h2 {
+  font-size: 1.10rem;
+}

@@ -1,0 +1,97 @@
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links li {
+  margin: 1rem;
+}
+
+.nav-links a {
+  border: 1px solid transparent;
+  color: #FC4D2D;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+.nav-links a:hover,
+.nav-links a:active,
+.nav-links a.active {
+  background: white;
+  color: #21CE99;
+  position: relative;
+  margin: 0;
+  border-radius: 6px;
+  border: 1px solid #21CE99;
+  padding: .5rem;
+  overflow: hidden;
+  background: white;
+}
+
+.nav-links button {
+  cursor: pointer;
+  background: white;
+  padding: 0.5rem;
+  font: inherit;
+  border: 1px solid #FC4D2D;
+  color: #FC4D2D;
+  text-decoration: none;
+}
+
+.nav-links button:focus {
+  outline: none;
+  background: white;
+  color: #21CE99;
+  position: relative;
+  margin: 0;
+  border-radius: 6px;
+  border: 1px solid #21CE99;
+  padding: .5rem;
+  overflow: hidden;
+}
+
+.nav-links button:hover,
+.nav-links button:active {
+  color: #21CE99;
+  position: relative;
+  margin: 0;
+  border-radius: 6px;
+  border: 1px solid #21CE99;
+  padding: .5rem;
+  overflow: hidden;
+  background: white;
+}
+
+@media (min-width: 768px) {
+  .nav-links {
+    flex-direction: row;
+  }
+
+  .nav-links li {
+    margin: 0 0.5rem;
+  }
+
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .nav-links button {
+    border: 1px solid white;
+    color: white;
+    background: transparent;
+  }
+  
+  .nav-links button:hover,
+  .nav-links button:active {
+    background: white;
+    color: #21CE99;
+  }
+}

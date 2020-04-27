@@ -1,0 +1,11 @@
+.transcript-home-title-container {
+  position: relative;
+  top: 0rem;
+  height: 15rem;
+  margin: 0;
+  z-index: 5;
+  background-color: white;
+  display: flex;
+  font-size: 0;
+  left: 6.5%;
+}

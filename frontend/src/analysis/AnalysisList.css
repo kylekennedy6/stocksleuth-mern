@@ -1,0 +1,11 @@
+.analysis-list {
+  margin-left: 0rem;
+  margin-top: 0rem;
+  padding: 0;
+}
+
+@media (min-width: 1170px) {
+  .analysis-list {
+    width: 85rem;
+  }
+}

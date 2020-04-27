@@ -1,0 +1,12 @@
+.transcript-dropdown {
+  position: fixed;
+  left: 3rem;
+  top: 16.5rem;
+  z-index: 100;
+  width: 12.5rem;
+  height: 31rem;
+  background: white;
+  box-shadow: 0 1px 3px #febfb4;
+  border: .5px solid #febfb4; 
+  border-radius: 6px;
+}

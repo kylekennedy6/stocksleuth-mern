@@ -1,0 +1,8 @@
+.answer-item {
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.answer-item:hover {
+  overflow: visible
+}

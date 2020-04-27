@@ -1,0 +1,12 @@
+.user-title {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 2.2rem;
+  z-index: 5;
+  background: white;
+  width: 100%;
+}

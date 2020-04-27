@@ -1,0 +1,63 @@
+.exchange-item {
+  width: 100%;
+  display: flex;
+}
+
+.exchange-item__content {
+  padding: 1;
+  display: block;
+  box-shadow: none;
+}
+
+.exchange-item__info {
+  padding: 1rem;
+  text-align: center;
+}
+
+.exchange-item__image {
+  width: 100%;
+  height: 12.5rem;
+  margin-right: 1.5rem;
+}
+
+.exchange-item__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.exchange-item__info h2,
+.exchange-item__info h3,
+.exchange-item__info p {
+  margin: 0 0 0.5rem 0;
+}
+
+.exchange-item__actions {
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+.exchange-item__modal-content {
+  padding: 0;
+}
+
+.exchange-item__modal-actions {
+  text-align: right;
+}
+
+.exchange-item__actions button,
+.exchange-item__actions a {
+  margin: 0.5rem;
+}
+
+.map-container {
+  height: 15rem;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .exchange-item__image {
+    height: 20rem;
+  } 
+}

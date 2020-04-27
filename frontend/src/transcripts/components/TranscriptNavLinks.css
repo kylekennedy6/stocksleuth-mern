@@ -1,0 +1,107 @@
+.transcript-nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.transcript-nav-links li {
+  margin: 1rem;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.transcript-nav-links a {
+  border: 1px solid transparent;
+  color: #21CE99;
+  text-decoration: none;
+  padding: 0.5rem;
+  
+}
+
+.transcript-nav-links a:hover,
+.transcript-nav-links a:active,
+.transcript-nav-links a.active {
+  background: white;
+  color: #FC4D2D;
+  position: relative;
+  margin: 0;
+  border-radius: 6px;
+  border: 1px solid #FC4D2D;
+  padding: .5rem;
+  overflow: hidden;
+  background: white;
+}
+
+.transcript-nav-links button {
+  cursor: pointer;
+  background: white;
+  padding: 0.5rem;
+  font: inherit;
+  border: 1px solid #FC4D2D;
+  color: #FC4D2D;
+  text-decoration: none;
+}
+
+.transcript-nav-links button:focus {
+  outline: none;
+  background: white;
+  color: #21CE99;
+  position: relative;
+  margin: 0;
+  border-radius: 6px;
+  border: 1px solid #21CE99;
+  padding: .5rem;
+  overflow: hidden;
+}
+
+.transcript-nav-links button:hover,
+.transcript-nav-links button:active {
+  color: #21CE99;
+  position: relative;
+  margin: 0;
+  border-radius: 6px;
+  border: 1px solid #21CE99;
+  padding: .5rem;
+  overflow: hidden;
+  background: white;
+}
+
+@media (min-width: 768px) {
+  .transcript-nav-links {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background: #fff;
+    border: .5px solid #febfb4;
+    box-shadow: 0 1px 3px #febfb4;
+    border-radius: 6px;
+  }
+
+  .transcript-nav-links li {
+    margin: 1rem;
+  }
+
+  .transcript-nav-links a {
+    color: #21CE99;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .transcript-nav-links button {
+    border: 1px solid white;
+    color: white;
+    background: transparent;
+  }
+  
+  .transcript-nav-links button:hover,
+  .transcript-nav-links button:active {
+    background: white;
+    color: #21CE99;
+  }
+}

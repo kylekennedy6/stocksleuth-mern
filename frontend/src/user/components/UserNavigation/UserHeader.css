@@ -1,0 +1,21 @@
+.user-header {
+  width: 4rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 9rem;
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px #febfb4;
+  border: .5px solid #febfb4; 
+  padding-left: 1rem;
+  margin-top: 1rem;
+  z-index: 5;
+}
+
+@media (min-width: 768px) {
+  .user-header {
+    width: 38rem;
+  }
+}
